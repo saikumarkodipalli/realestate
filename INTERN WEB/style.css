@@ -1,0 +1,356 @@
+.navbar {
+  background-color: #82654d;
+}
+
+.logo-nav {
+  text-align: right;
+}
+
+.logo-image {
+  height: 60px;
+  width: 80px;
+}
+
+.logo-image-mhg {
+  height: 50px;
+}
+
+.nav-link {
+  font-family: "ROBOTO";
+}
+
+.d-block {
+  width: 100%;
+}
+
+#navItem1 {
+  color: #ffffff;
+  font-family: "Sans-Serif";
+}
+
+#navItem2 {
+  color: #ffffff;
+  font-family: "Sans-Serif";
+}
+
+#navItem3 {
+  color: #ffffff;
+  font-family: "Sans-Serif";
+}
+
+#navItem4 {
+  color: #ffffff;
+  font-family: "Sans-Serif";
+}
+
+#navItem5 {
+  color: #ffffff;
+  font-family: "Sans-Serif";
+}
+
+#navItem6 {
+  color: #ffffff;
+  font-family: "Sans-Serif";
+}
+
+#navItem7 {
+  color: #ffffff;
+  font-family: "Sans-Serif";
+}
+
+.are-section {
+  background-color: #f9fbfe;
+}
+
+.mySlides {
+  width: 100%;
+}
+
+.are-section-heading {
+  font-family: "Sans-Serif";
+
+  font-size: 35px;
+}
+
+.gallery-head {
+  font-family: "Sans-Serif";
+  background-color: #ffffff;
+}
+
+.are-section-description {
+  font-family: "Sans-Serif";
+  font-size: 20px;
+}
+
+.bt-download {
+  background-color: #82654d;
+  font-family: "Sans-Serif";
+  border-radius: 18px;
+  padding: 11px;
+}
+
+.are-card-image {
+  width: 100%;
+  height: 100%;
+}
+
+.project-higlet-container {
+  background-color: #cfb483a6;
+}
+
+.prh-main-heading {
+  font-family: "Sans-Serif";
+  color: #3b2d15;
+}
+
+.ph-para {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.ph-low-head {
+  font-family: "Serif";
+  font-weight: 500;
+}
+
+.amenities-img {
+  width: 100%;
+  padding: 15px;
+}
+
+.location-container {
+  width: 70%;
+  height: 50%;
+}
+
+.ame-central-head {
+  font-family: "Sans-Serif";
+  text-align: center;
+}
+
+.aminities-section {
+  background-color: #ffffff;
+}
+
+.aminities-section-one {
+  background-color: #f0eee6;
+
+  border-width: 3px;
+  border-style: solid;
+  border-color: #d4b366;
+}
+
+.walkthrough-section {
+  background-color: #cfb483a6;
+}
+
+.embed-responsive {
+  padding: 35px;
+}
+
+.embed-responsive-item {
+  width: 75%;
+}
+
+.walk-head {
+  font-family: "Sans-Serif";
+}
+
+.club-head {
+  font-family: "Sans-Serif";
+  color: #ffffff;
+}
+
+.club-bg-container {
+  background-image: url("https://c1.wallpaperflare.com/preview/427/5/115/condominium-condo-architecture-apartment.jpg");
+  background-size: cover;
+  width: 100%;
+}
+
+.club-carocle-container {
+  width: 100%;
+  height: 100%;
+}
+
+.explore-content-container {
+  font-family: "Sans-Serif";
+  background-color: #f2f2f0;
+}
+
+.explore-list-item {
+  font-size: 20px;
+}
+
+.hr-line {
+  color: black;
+  width: 90%;
+  border-top: 3px solid #8c8b8b;
+}
+
+.hr-line-pro {
+  color: black;
+  width: 70%;
+  border-top: 3px solid #6a5241;
+}
+
+.explore-order-list {
+  padding-left: 110px;
+  padding-right: 50px;
+  text-align: left;
+}
+
+.provisions-list-item {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.provisions-order-list {
+  padding-left: 110px;
+  padding-right: 50px;
+  text-align: left;
+}
+
+.provisions-content-container {
+  font-family: "Sans-Serif";
+  background-color: #f2f2f0;
+}
+
+.site-layout-section {
+  font-family: "Sans-Serif";
+  background-color: #e9ecef;
+}
+
+.site-layout-img {
+  width: 80%;
+
+  border-width: 3px;
+  border-style: solid;
+  border-color: #d4b366;
+}
+
+.tfp-img {
+  width: 100%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #d4b366;
+}
+
+.galry-head {
+  font-family: "Sans-Serif";
+  background-color: #deddd7;
+  padding: 5px;
+}
+
+.tfp-head {
+  font-family: "Sans-Serif";
+  font-size: 35px;
+}
+
+.project-status-section {
+  font-family: "Sans-Serif";
+}
+
+.project-status-para {
+  font-size: 22px;
+}
+
+.project-status-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.touch-with-us-section {
+  font-family: "Sans-Serif";
+  background-color: #82654d;
+  color: #ffffff;
+}
+
+.touch-with-us-uorder-list {
+  list-style-type: none;
+  text-align: left;
+}
+
+.touch-with-us-list {
+  font-size: 19px;
+  text-align: left;
+}
+
+.footer-logo {
+  width: 50%;
+  padding: 10px;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+}
+
+.location-section {
+  font-family: "Sans-Serif";
+  background-color: #e6ebdd;
+}
+
+.enquiry-now-container {
+  font-family: "Sans-Serif";
+  background-color: #a8a267;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.dropdown-toggle {
+  font-family: "Sans-Serif";
+  background-color: #ffffff;
+  border-radius: 0;
+  color: black;
+  width: 100%;
+}
+
+.specification-section-bg-container {
+  background-image: url("https://img.freepik.com/free-photo/high-angle-beautiful-city-buildings-nighttime_23-2149444907.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.specification-head {
+  font-family: "Sans-Serif";
+  color: #ffffff;
+}
+
+.dropdown-item {
+  font-family: "Sans-Serif";
+  color: black;
+  font-size: 20px;
+  /*  font-weight: solid; */
+}
+
+.btn-dropdowm {
+  width: 80%;
+  font-size: 25px;
+}
+
+.enquire-form {
+  text-align: left;
+  padding: 35px;
+}
+
+.btn-custom-sub {
+  background-color: #ffffff;
+  color: black;
+}
+
+.fab {
+  height: 17px;
+}
+
+.hr-copy-right {
+  color: black;
+  width: 95%;
+  border-top: 3px solid #6a5241;
+}
+
+.hr-above-location {
+  color: black;
+  width: 100%;
+  border-top: 2px solid #6a5241;
+}

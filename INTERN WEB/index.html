@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="#">
+              <h1 class="logo-header">
+                  <img src="https://myhomeconstructions.com/wp-content/themes/sdna/logo.png" class="logo-image" />
+                  <path fill-rule="evenodd" d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6H.5ZM13 12.5a2.01 2.01 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5Z" />
+                  <path d="m4.4.8-.003.004-.014.019a4.167 4.167 0 0 0-.204.31 
+                  2.327 2.327 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 
+                  .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 
+                  .188-.065.368-.119.494a3.31 3.31 0 0 1-.202.388 5.444 5.444 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 
+                  .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 3.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 
+                  3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8Zm3 0-.003.004-.014.019a4.167 4.167 0 0 0-.204.31 2.327 2.327 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 
+                  .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.31 3.31 0 0 1-.202.388 5.444 5.444 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 6.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8Zm3 0-.003.004-.014.019a4.077 4.077 0 0 0-.204.31 2.337 2.337 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.198 3.198 0 0 1-.202.388 5.385 5.385 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 9.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8Z" />
+                  </svg>
+              </h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+              <div class="navbar-nav  ">
+                  <ul class="navbar-nav m-auto">
+                      <li class="nav-item m-3">
+                          <a class="nav-link active" id="navItem1" href="#wcuSection">
+                              HOME
+                              <span class="sr-only">(current)</span>
+                          </a>
+                      </li>
+                      <li class="nav-item  mt-3 mr-2">
+                          <a class="nav-link" href="#amenitiesSection" id="navItem2">AMENITES</a>
+                      </li>
+                      <li class="nav-item  mt-3 mr-2">
+                          <a class="nav-link" href="#sitelayoutSection" id="navItem3">SITE LAYOUT</a>
+                      </li>
+                      <li class="nav-item m-3">
+                          <a class="nav-link" href="#tfpSection" id="navItem4">FLOOR PLANS</a>
+                      </li>
+                      <li class="nav-item  mt-3 mr-2">
+                          <a class="nav-link" href="#gallerycontainer" id="navItem5">GALLERY</a>
+                      </li>
+                      <li class="nav-item  mt-3 mr-2">
+                          <a class="nav-link" href="#touchwithusSection" id="navItem6">CONTACT US</a>
+                      </li>
+                      <li class="nav-item mt-3 mr-2">
+                          <a class="nav-link" href="#touchwithusSection" id="navItem7">ABOUT US</a>
+                      </li>
+                     
+                  </ul>
+
+              </div>
+
+          </div>
+          <!-- <img src="https://myhomenishada.co.in/assets/img/g-logo.png" class="logo-image-mhg col-none col-md-block" /> -->
+      </div>
+
+  </nav>
+  
+  <div class="carousel-item-img">
+    <img src="https://myhomeconstructions.com/wp-content/themes/sdna/images/banners/avatar-o.jpg" class="d-block w-100" alt="...">
+</div>
+  <!-- matter -->
+  <div class="are-section pt-5 pb-5" id="wcuSection">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-md-6">
+                  <h1 class="are-section-heading">An arrival experience that uplifts your spirits.</h1>
+                  <p class="are-section-description">
+                      A resort-themed recident project comprises large, uber and luxurious homes in kokapet, west of hyderabad. with smooth connectivitynto Hitec city, the finacial district and world-class office sapaces We use both original recipes and classic versions of famous homes
+                      items.a person or company that organizes the building of houses, offices, etc. for example, by supplying workers and buying materials: Their building contractor a continues to reject their architect's design plans.
+                  </p>
+                  <!-- </div>
+              <div class="col-12 col-md-6 mt-4"> -->
+                  <button class="btn  bt-download">DOWNLOAD BORCHURE</button>
+              </div>
+
+              <div class="col-12 col-md-6 mt-3">
+                  <div class="are-card">
+                      <img src="	https://myhomeconstructions.com/wp-content/themes/sdna/images/projects/avatar/avatar-half.png" class="are-card-image" />
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- project highlights -->
+  <div class="container project-higlet-container PT-5 pb-5">
+      <div class="row">
+          <div class="col-12 text-center">
+              <h1 class="prh-main-heading pt-3 pb-3">PROJECT HIGHLIGHTS</h1>
+          </div>
+          <!--   <div class="text-center pt-5 pb-5"> -->
+          <div class="col-12 col-md-3 text-center pt-3 ">
+              <P class="ph-para">16.68</P>
+              <H3 class="ph-low-head">ACERS LAND AREA</H3>
+          </div>
+          <div class="col-12 col-md-3 text-center pt-3 ">
+              <P class="ph-para">80%</P>
+              <H3 class="ph-low-head">OPEN SPACES</H3>
+          </div>
+          <div class="col-12  col-md-3 text-center pt-3 ">
+              <P class="ph-para">04</P>
+              <H3 class="ph-low-head"> BASEMENT LEVELS</H3>
+          </div>
+          <div class="col-12  col-md-3 text-center pt-3 ">
+              <P class="ph-para">10000+ </P>
+              <H3 class="ph-low-head">CLUB HOUSE AMENITIES & FACICILITIES</H3>
+          </div>
+          <!-- </div>
+                   <div class=" text-center pt-5 pb-5"> -->
+          <div class="col-12  col-md-3 text-center pt-3  ">
+              <P class="ph-para">08</P>
+              <H3 class="ph-low-head">SKY HIGH TOWERS</H3>
+          </div>
+          <div class="col-12  col-md-3 text-center pt-3 ">
+              <P class="ph-para">G+44</P>
+              <H3 class="ph-low-head">Flower with double height Etrance</H3>
+          </div>
+          <div class="col-12  col-md-3 text-center pt-3">
+              <P class="ph-para">1398</P>
+              <H3 class="ph-low-head">NO. OF APARTMENTS</H3>
+          </div>
+          <div class="col-12  col-md-3 text-center pt-3 ">
+              <P class="ph-para">3&4bhk </P>
+              <H3 class="ph-low-head">CLUB HOUSE AMENITIES & FACICILITIES</H3>
+          </div>
+         
+
+      </div>
+  </div>
+  
+      <!-- amenities -->
+  <div class="aminities-section pt-3 pb-3 " id="amenitiesSection">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 text-center">
+                  <h1 class="prh-main-heading">AMENITIES</h1>
+              </div>
+              <div class="col-12 col-md-4  mt-3">
+                  <div class=" aminities-section-one ">
+                      <img src="https://myhomeconstructions.com/wp-content/themes/sdna/images/projects/avatar/status/aug06/b14.jpg" class="amenities-img" />
+                      <h3 class="ame-central-head">Central Plaza</h3>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 shadow mt-3">
+                  <div class=" aminities-section-one ">
+                      <img src="	https://myhomeconstructions.com/wp-content/themes/sdna/images/projects/avatar/status/aug06/b7.jpg" class="amenities-img" />
+                      <h3 class="ame-central-head">Inter-connected Courtyards</h3>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 shadow mt-3">
+                  <div class=" aminities-section-one ">
+                      <img src="https://myhomeconstructions.com/wp-content/themes/sdna/images/projects/avatar/status/aug06/b3.jpg" class="amenities-img" />
+                      <h3 class="ame-central-head">Reading Lounge</h3>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 shadow mt-3">
+                  <div class=" aminities-section-one ">
+                      <img src="https://myhomeconstructions.com/wp-content/uploads/2019/06/West_side_Landsapced_View-1024x682.jpg" class="amenities-img" />
+                      <h3 class="ame-central-head">Central Plaza Waterbody</h3>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 shadow mt-3">
+                  <div class=" aminities-section-one ">
+                      <img src="https://myhomeconstructions.com/wp-content/uploads/2019/11/Corridor.jpg" class="amenities-img" />
+                      <h3 class="ame-central-head">Seating Pergola</h3>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 shadow mt-3">
+                  <div class=" aminities-section-one ">
+                      <img src="	https://myhomeconstructions.com/wp-content/uploads/2019/11/DrawingRoom.jpg" class="amenities-img" />
+                      <h3 class="ame-central-head">Aerial Yoga</h3>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- walkthrough -->
+  <div class="walkthrough-section pt-3 pb-3 " id="walkthroughSection">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 text-center">
+                  <h1 class="walk-head text-center p-3">WALKTHROUGH</h1>
+                  <div class="embed-responsive embed-responsive-16by9 ">
+                      <iframe class="embed-responsive-item pl-5 pb-3 pr-5" src="https://www.youtube.com/embed/7pnhYmN-UIE?rel=0" allowfullscreen></iframe>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- club house -->
+  <div class="clubhouse-section pt-3 pb-3 " id="clubhouseSection">
+      <div class="container">
+          <div class="row">
+              <div class=" club-bg-container col-12 text-center">
+                  <h1 class="club-head text-center p-3">Clubhouse</h1>
+              </div>
+              
+              </div>
+              <div class="carousel-item-active">
+                <img src="https://myhomeconstructions.com/wp-content/themes/sdna/images/projects/avatar/layout-optimized.jpg" class="d-block w-100" alt="...">
+            </div>
+              <div class="explore-content-container col-12 col-md-5 text-center">
+                  <h2 class="explore-head pt-3 pb-2">EXPLORE THE LUXURY</h2>
+                  <hr class="hr-line" />
+                  <ol class="explore-order-list ">
+                      <li class="explore-list-item pb-2">GRAND LOBBY</li>
+                      <li class="explore-list-item pb-2">INDOOR TEMPERATURE CONTROLLED POOL AND INFINITY POOL</li>
+                      <li class="explore-list-item pb-2">GYM</li>
+                      <li class="explore-list-item pb-2">MULTI-PURPOUS HALLS</li>
+                      <li class="explore-list-item pb-2">SQUASH COURT</li>
+                      <li class="explore-list-item pb-2">INDOOR ADMITION COURT</li>
+                      <li class="explore-list-item pb-2">YOGA/ZUMBA</li>
+                      <li class="explore-list-item pb-2">GUEST ROOMS</li>
+                      <li class="explore-list-item pb-2">TENNIS COURT &MORE</li>
+                  </ol>
+              </div>
+              <div class="provisions-content-container col-12 text-center mt-3 mb-3 pt-3 pb-3">
+                  <h1 class="provisions-head p-3 pt-5">PROVISIONS</h1>
+                  <hr class="hr-line-pro" />
+                  <ol class="provisions-order-list d-md-none ">
+                      <li class="provisions-list-item">BANK & ATM</li>
+                      <li class="provisions-list-item">RESTAURANT</li>
+                      <li class="provisions-list-item">SUPERMARKET</li>
+                      <li class="provisions-list-item">CLINIC</li>
+                      <li class="provisions-list-item">SPA & SALOON</li>
+                      <li class="provisions-list-item">CRECHE</li>
+                  </ol>
+                  <div class="d-none d-md-inline">
+                      <ol class="provisions-order-list  d-flex d-row justify-content-center">
+                          <li class="provisions-list-item mr-5 pr-4">BANK & ATM</li>
+                          <li class="provisions-list-item mr-5 pr-4">RESTAURANT</li>
+                          <li class="provisions-list-item mr-5 pr-4">SUPERMARKET</li>
+                          <li class="provisions-list-item mr-5 pr-4">CLINIC</li>
+                          <li class="provisions-list-item mr-5 pr-4">SPA & SALOON</li>
+                          <li class="provisions-list-item mr-5 pr-4">CRECHE</li>
+                      </ol>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- site layout -->
+  <div class="site-layout-section pt-3 pb-3 " id="sitelayoutSection">
+      <div class="container">
+          <div class="row">
+              <div class=" site-layout-container col-12 text-center">
+                  <h1 class="site-layout-head text-center p-3">SITE LAYOUTS</h1>
+              </div>
+              <div class=" site-layout-img-container col-12 text-center">
+                  <img src="	https://myhomeconstructions.com/wp-content/uploads/2019/11/Kitchen.jpg" class="site-layout-img m-3 shadow" />
+                  <img src="https://myhomeconstructions.com/wp-content/uploads/2019/11/DrawingRoom.jpg" class="site-layout-img shadow" />
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  </div>
+
+
+  <!-- location -->
+  <div class="location-section pt-3 pb-3" id="locationSection">
+      <div class="container">
+          <div class="row">
+              <div class=" location-container col-12 text-center">
+                  <h1 class="location-head text-center p-3">LOCATION</h1>
+              </div>
+              <div class=" location-container col-12 text-center">
+                  <div id="map-container-google-1" class="z-depth-1-half ">
+                      <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen class="map-container"></iframe>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+<!-- specification -->
+  <div class="specification-section-bg-container pt-3 pb-3" id="specificationSection">
+      <div class="container">
+          <div class="row">
+              <div class=" specification-container col-12 text-center">
+                  <h1 class="specification-head text-center p-3">SPECIFICATIONS</h1>
+              </div>
+              <div class="specification-sc col-12 col-md-6 text-center mt-3 mb-3">
+                  <div class="dropdown">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          SUPER STUCTURE
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">RCC shere wall-framed structure resistant to wind <br />and earthquke(Zone-2)</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                 
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          WALLS
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          WALL FINISHING
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                 
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          CEILING FINISHES
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          FLOORING
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                 
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          DOORS
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                 
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          KITCHEN
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          BATHROOMS, SANITARY WARE <br /> & CP FITTINGS
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          WINDOWS AND GIRLLS
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="specification-sc col-12 col-md-6 text-center mt-3 mb-3">
+                  <div class="dropdown">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          ELECTRICAL
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          TV/ TELEPHONE
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+               
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          WATER PROOFING
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          HVAC
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                 
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          SECURITY
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                 
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          LPG/ PNG
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          LIFTS
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          STP
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          BILLING SYSTEM
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="dropdown mt-3 mb-3">
+                      <button class="btn btn-dropdowm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          SYSTEM
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <ul>
+                              <li>
+                                  <p class="dropdown-item">External walls: Reinforced <br />ashear walls</p>
+                              </li>
+                              <li>
+                                  <p class="dropdown-item">Internal walls: Reinforced <br />ashear walls</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <!-- footer -->
+  <div class="touch-with-us-section pt-3 pb-3" id="touchwithusSection">
+      <div class="container">
+          <div class="row">
+              <div class=" touch-with-us-container col-12 text-center">
+                  <h2 class="touch-with-us-head text-center p-3">GET IN TOUCH WITH US TODAY</h2>
+                  <img src="https://myhomeconstructions.com/wp-content/themes/sdna/logo.png" class="logo-image-mhg col-none col-md-block" />
+                  <!-- <img src="https://myhomenishada.co.in/assets/img/Nishada_Logo_brown.png" class="footer-logo" /> -->
+              </div>
+              <div class=" touch-with-us-container col-12 col-md-4 ">
+                  <!--  <img src="https://myhomenishada.co.in/assets/img/Nishada_Logo_brown.png" class="footer-logo" /> -->
+                  <ul class=" touch-with-us-uorder-list col-12 pt-3 pb-3 ">
+                      <li class=" touch-with-us-list col-12 ">
+                          <h2>QUICK LINKS</h2>
+                      </li>
+                      <li class=" touch-with-us-list col-12 ">About Us</li>
+                      <li class=" touch-with-us-list col-12 ">Contact Us</li>
+                      <li class=" touch-with-us-list col-12 ">Privacy Policy</li>
+                      <li class=" touch-with-us-list col-12 ">Terms & Conditions</li>
+                  </ul>
+                  <!-- </div>
+              <div class=" touch-with-us-container col-12 pt-3 pb-3"> -->
+                  <ul class=" touch-with-us-uorder-list col-12 pt-3 pb-3">
+                      <li class=" touch-with-us-list col-12 ">
+                          <h2>ADDRESS</h2>
+                      </li>
+                      <li class=" touch-with-us-list col-12 ">Aqua Space Developers Pvt Ltd,</li>
+                      <li class=" touch-with-us-list col-12 ">8th Floor, Block 3, Ny Home Hub,</li>
+                      <li class=" touch-with-us-list col-12 ">Madhapur Hyderabad, Telangana 50081</li>
+                  </ul>
+                  <!--  <img src="https://myhomenishada.co.in/assets/img/Nishada_Logo_brown.png" class="footer-logo" /> -->
+              </div>
+
+              <!-- logo -->
+
+              <div class=" touch-with-us-container col-12 col-md-4 pt-3 pb-3">
+                  <ul class=" touch-with-us-uorder-list col-12 ">
+                      <li class=" touch-with-us-list col-12 ">
+                          <h2>CONTACT</h2>
+                      </li>
+                      <li class=" touch-with-us-list col-12 ">+91 9770 800 800 | 040 6688 8888</li>
+                      <li class=" touch-with-us-list col-12 ">mktg@myhomenishada.com</li>
+
+                  </ul>
+                  <!--   </div>
+            <div class=" touch-with-us-container col-12 pt-3 pb-3"> -->
+                  <ul class=" touch-with-us-uorder-list col-12 pt-3 pb-3 ">
+                      <li class=" touch-with-us-list col-12 ">
+                          <h2>SALES ENQUIRY</h2>
+                      </li>
+                      <li class=" touch-with-us-list col-12 ">+91 9770 800 800 | 040 6688 8888</li>
+                      <li class=" touch-with-us-list col-12 ">+91 9770 800 800 | 040 6688 8888</li>
+
+                  </ul>
+
+                  <ul class=" touch-with-us-uorder-list col-12 pt-3 pb-3 ">
+                      <li class=" touch-with-us-list col-12 ">
+                          <h2>NRI ENQUIRY</h2>
+                      </li>
+                      <li class=" touch-with-us-list col-12 ">+91 9770 800 800 | 040 6688 8888</li>
+                      <li class=" touch-with-us-list col-12 ">nri@myhomeconctrections.com</li>
+
+                  </ul>
+              </div>
+              <div class="col-12 col-md-4">
+                  <div class=" enquiry-now-container  text-center ">
+                      <h2 class="enquiry-now-head text-center p-3">ENQUIRE NOW</h2>
+                      <form class="enquire-form">
+                          <div class="form-group">
+                              <label for="exampleInputname ">Full Name </label>
+                              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Full Name" aria-describedby="emailHelp">
+
+                          </div>
+                          <div class="form-group">
+                              <label for="exampleInputEmail1 ">Email </label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
+                          </div>
+                          <div class="form-group">
+                              <label for="exampleInputEmail1 ">Phone </label>
+                              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Contact number">
+                          </div>
+                          <div class="form-group">
+                              <label for="exampleFormControlTextarea1">Message</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-custom-sub">Submit</button>
+                      </form>
+                  </div>
+              </div>
+              <hr class="hr-copy-right" />
+              <div class="col-12">
+                  <div class="d-flex flex-row justify-content-center">
+                      <div class="follow-us-icon-container m-3">
+                          <i class="fab fa-twitter icon"></i>
+                      </div>
+                      <div class="follow-us-icon-container m-3">
+                          <i class="fab fa-instagram icon"></i>
+                      </div>
+                      <div class="follow-us-icon-container m-3">
+                          <i class="fab fa-facebook icon"></i>
+                      </div>
+                      <div class="follow-us-icon-container m-3">
+                          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                      </div>
+                  </div>
+                  <h5 class="text-center">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2022. All Rights Reserved.</h5>
+              </div>
+          </div>
+
+
+      </div>
+     
+        <div class="carousel-item">
+          <img src="https://myhomenishada.co.in/assets/img/banner_main.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://myhomenishada.co.in/assets/img/baner.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a> 
+    </div>
+   
+  </body>
+</html>
